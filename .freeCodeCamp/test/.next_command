@@ -90,3 +90,11 @@ psql -U postgres -h localhost -d universe -c "SELECT table_name FROM information
 psql -U postgres -h localhost -d universe <<'EOF' CREATE TABLE galaxy ( galaxy_id SERIAL PRIMARY KEY, name VARCHAR(255) NOT NULL ); CREATE TABLE star ( star_id SERIAL PRIMARY KEY, name VARCHAR(255) NOT NULL, galaxy_id INT REFERENCES galaxy(galaxy_id) ); EOF
 psql -U postgres -h localhost -d universe -c "\dt"
 psql -U postgres -h localhost -d universe -c "\d galaxy"
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
+cd /workspace/project
